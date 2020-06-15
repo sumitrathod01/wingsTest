@@ -1,0 +1,70 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme_NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <style name="AppTheme.FullScreen">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="myToolbarThemeDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="myToolbarThemeWhite" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorPrimary</item>
+    </style>
+
+    <style name="MyDialogTheme2" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Fill the screen -->
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <!-- No backgrounds, titles or window float -->
+        <!--<item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorPrimaryDark</item>-->
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="android:windowTranslucentNavigation" tools:targetApi="kitkat">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <!-- Just to prove it's working -->
+        <item name="background">@android:color/transparent</item>
+        <item name="actionMenuTextColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="CustomSpot" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogSpotColor">@color/colorAccent</item>
+        <item name="DialogSpotCount">5</item>
+    </style>
+
+
+
+</resources>

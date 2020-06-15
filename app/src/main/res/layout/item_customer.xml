@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="6dp"
+    android:id="@+id/Cardview"
+    app:cardUseCompatPadding="true"
+    app:elevation="4dp">
+
+    <RelativeLayout
+        android:animateLayoutChanges="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/Linear_profile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/Img_profile"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_toStartOf="@+id/Img_checked"
+            android:layout_toLeftOf="@+id/Img_checked"
+            android:layout_toEndOf="@+id/Linear_profile"
+            android:layout_toRightOf="@+id/Linear_profile"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/Txt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="sumit rathod"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/Img_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:tint="@color/colorPrimary"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_check_black_24dp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

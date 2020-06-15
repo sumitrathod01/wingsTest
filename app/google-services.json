@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "954760150885",
+    "firebase_url": "https://wings-d90a5.firebaseio.com",
+    "project_id": "wings-d90a5",
+    "storage_bucket": "wings-d90a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954760150885:android:97feb0b662f538f88f6b8c",
+        "android_client_info": {
+          "package_name": "com.example.wings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954760150885-oj5d2akcpre5re5jg02sgg0j75n1btab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByUePCSk-dI307YCHxYu6elLNN3VR0aY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954760150885-oj5d2akcpre5re5jg02sgg0j75n1btab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
